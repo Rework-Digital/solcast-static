@@ -3,7 +3,7 @@ window.addEventListener('load', function () {
 });
 
 function initUtmPopulation() {
-  var utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_form', 'utm_content'];
+  var utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_form', 'utm_content', 'utm_matchtype', 'utm_keyword'];
 
   function getCookieValue(name) {
     var match = document.cookie.match(new RegExp('(^|;\\s*)' + name + '=([^;]*)'));
